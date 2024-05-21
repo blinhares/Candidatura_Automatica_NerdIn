@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nerdin-automation"
+version = "0.1.0"
+description = ""
+authors = ["bruno <b_linhares@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.21.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
